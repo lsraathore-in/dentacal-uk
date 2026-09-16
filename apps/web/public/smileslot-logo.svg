@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 48" width="200" height="48" fill="none">
+  <!-- Tooth Icon Badge -->
+  <rect x="2" y="4" width="40" height="40" rx="10" fill="#11A6BE"/>
+  <path d="M22 13C17 13 13.5 15.5 13.5 19.5C13.5 23.5 15.2 26 17 32.5C18.2 36.5 19.8 36.5 21 33.5C21.5 32.2 22 30 22 29C22 30 22.5 32.2 23 33.5C24.2 36.5 25.8 36.5 27 32.5C28.8 26 30.5 23.5 30.5 19.5C30.5 15.5 27 13 22 13Z" fill="white"/>
+  <path d="M17.5 21C19.5 24 24.5 24 26.5 21" stroke="#11A6BE" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Brand Typography -->
+  <text x="50" y="32" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="23" font-weight="800" fill="#314C5F" letter-spacing="-0.5">Smile<tspan fill="#11A6BE">Slot</tspan></text>
+  
+  <!-- UK Badge -->
+  <rect x="156" y="16" width="28" height="15" rx="4" fill="#CEEFEE"/>
+  <text x="162" y="27" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="9" font-weight="700" fill="#11A6BE">UK</text>
+</svg>
