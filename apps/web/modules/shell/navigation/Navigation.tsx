@@ -30,6 +30,12 @@ const getNavigationItems = (): NavigationItemType[] => [
     icon: "clock",
   },
   {
+    name: "teams",
+    href: "/locations",
+    icon: "users",
+    isCurrent: ({ pathname }) => pathname?.startsWith("/locations") ?? false,
+  },
+  {
     name: "apps",
     href: "/apps",
     icon: "grid-3x3",

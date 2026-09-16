@@ -63,7 +63,18 @@ export function SideBar({ bannersHeight, user }: SideBarProps) {
           "fixed left-0 hidden h-full w-14 flex-col overflow-y-auto overflow-x-hidden border-muted border-r bg-cal-muted md:sticky md:flex lg:w-56 lg:px-3",
           "max-h-screen"
         )}>
-        <div className="flex h-full flex-col justify-between py-3 lg:pt-4">
+        <div className="flex h-full flex-col justify-between py-3 lg:pt-3">
+          {/* SmileSlot Desktop Brand Header */}
+          <div className="hidden lg:flex flex-col gap-1 px-2 pb-3 mb-2 border-b border-subtle">
+            <Link href="/event-types" className="flex items-center">
+              <img src="/smileslot-logo.svg" alt="SmileSlot" className="h-7 w-auto" />
+            </Link>
+            <div className="flex items-center justify-between text-[10px] font-medium text-subtle px-0.5 mt-0.5">
+              <span className="text-[#11A6BE] font-bold tracking-wide">UK Dental Edition</span>
+              <span className="bg-[#CEEFEE] text-[#11A6BE] text-[9px] px-1.5 py-0.5 rounded font-bold uppercase tracking-wider">Deposit Shield</span>
+            </div>
+          </div>
+
           <header className="todesktop:-mt-3 todesktop:flex-col-reverse items-center justify-between todesktop:[-webkit-app-region:drag] md:hidden lg:flex">
             {user?.org ? (
               !ENABLE_PROFILE_SWITCHER ? (
@@ -114,8 +125,8 @@ export function SideBar({ bannersHeight, user }: SideBarProps) {
             </div>
           </header>
           {/* logo icon for tablet */}
-          <Link href="/event-types" className="text-center md:inline lg:hidden">
-            <Logo small icon />
+          <Link href="/event-types" className="text-center md:inline lg:hidden pb-2 mb-2 border-b border-subtle">
+            <img src="/smileslot-icon.svg" alt="SmileSlot" className="mx-auto h-7 w-7" />
           </Link>
           <Navigation />
         </div>
